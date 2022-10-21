@@ -16,6 +16,9 @@ Its recommended to create a virtual environment  with Anaconda: \
 Install pytorch conda install pytorch==1.6.0 torchvision -c pytorch \
 Install other dependencies pip install -r requirements.txt
 
+# Usage
+Run Main.py for demo
+
 # Note 
 This version dose not include GA-PP projection, instead, the projection parameters, d, vc are fixed,  d=0.5, vc=0.6.  GA-PP will be included soon. 
  

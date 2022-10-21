@@ -3,7 +3,7 @@
 
 Python implementation of locally adapted Pannini projection (LAPP). LAPP is a content-aware sphere to plane projection proposed in [1] for viewport rendering of omnidirectional images; it is based on Pannini projection proposed in [2]. This projection was developed to improve the performance of globally adapted Pannini projection (GAPP) proposed in [3]. GAPP is globally adapted to the viewport content (i.e., the projection parameters d and vc have the same values for the whole viewport), therefore the geometric distortions such as stretching and/or bending may be still visible for some image regions and structures. In LAPP the projection parameters are allowed to vary locally, and thus geometric distortions are further reduced, especially for the foreground objects. LAPP is used the similar procedure as in [4]. Refer to [3] and [1] for more details on GAPP and LAPP respectively.
 
-[]!()
+[]!(https://github.com/jwtyar/Locally-Adapted-Pannini-Projection/blob/main/Results.bmp)
 
 
 

@@ -9,13 +9,13 @@ Python implementation of globally and locally adapted Pannini projection (GLA-PP
 
 # installation
 
-Python >= 3.6
-PyTorch >= 1.6 and matching torchvision
-Recommended configuration with Anaconda:
+- Python >= 3.6
+- PyTorch >= 1.6 with correct torchvision
 
-Install pytorch conda install pytorch==1.6.0 torchvision -c pytorch.
-Install detectron2.
-Install other dependencies pip install -r requirements.txt.
+Its recommended to create a virtual environment  with Anaconda:
+Install pytorch conda install pytorch==1.6.0 torchvision -c pytorch \
+Install detectron2 \
+Install other dependencies pip install -r requirements.txt
 
 
 

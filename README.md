@@ -16,8 +16,9 @@ Its recommended to create a virtual environment  with Anaconda: \
 Install pytorch conda install pytorch==1.6.0 torchvision -c pytorch \
 Install other dependencies pip install -r requirements.txt
 
-
-
+# Note 
+In this version, GA-PP projection in not include, instead, the projection parameters, d, vc are fixed,  d=0.5, vc=0.6.  GA-PP will be included soon. 
+ 
 
 # References
 [1] F. Jabar, J. Ascenso, and M.P. Queluz, “Globally and Locally Optimized Pannini Projection for Viewport Rendering of 360° Images”, Submitted to J. Vis. Commun. Image     Represent., Oct. 2022 \

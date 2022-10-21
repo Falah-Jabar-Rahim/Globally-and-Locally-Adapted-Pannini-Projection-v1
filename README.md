@@ -7,6 +7,18 @@ Python implementation of globally and locally adapted Pannini projection (GLA-PP
 
 
 
+# installation
+
+Python >= 3.6
+PyTorch >= 1.6 and matching torchvision
+Recommended configuration with Anaconda:
+
+Install pytorch conda install pytorch==1.6.0 torchvision -c pytorch.
+Install detectron2.
+Install other dependencies pip install -r requirements.txt.
+
+
+
 
 # References
 [1] F. Jabar, J. Ascenso, and M.P. Queluz, “Globally and Locally Optimized Pannini Projection for Viewport Rendering of 360° Images”, Submitted to J. Vis. Commun. Image     Represent., Oct. 2022 \

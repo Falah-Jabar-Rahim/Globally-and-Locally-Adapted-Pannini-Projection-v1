@@ -17,7 +17,7 @@ Install pytorch conda install pytorch==1.6.0 torchvision -c pytorch \
 Install other dependencies pip install -r requirements.txt
 
 # Note 
-In this version, GA-PP projection in not include, instead, the projection parameters, d, vc are fixed,  d=0.5, vc=0.6.  GA-PP will be included soon. 
+This version dose not include GA-PP projection, instead, the projection parameters, d, vc are fixed,  d=0.5, vc=0.6.  GA-PP will be included soon. 
  
 
 # References
